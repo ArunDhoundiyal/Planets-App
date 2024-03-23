@@ -1,0 +1,40 @@
+.eachPlanetDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.planetName {
+  color: #f8fafc;
+}
+.planetDescription {
+  color: #f1f5f9;
+  width: 60%;
+}
+
+@media screen and (max-width: 515px) {
+  .image {
+    height: 100px;
+  }
+  .planetDescription {
+    color: #f1f5f9;
+    width: 60%;
+    font-size: 12px;
+  }
+  .planetName {
+    color: #f8fafc;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 515px) {
+  .image {
+    height: 250px;
+  }
+  .planetDescription {
+    color: #f1f5f9;
+    width: 60%;
+  }
+}
